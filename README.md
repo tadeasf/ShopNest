@@ -1,38 +1,42 @@
-# create-svelte
+# ShopNest
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+ShopNest is an e-commerce website built using Svelte, where users can browse products, add items to their cart, remove items from the cart, and proceed to payment.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Prerequisites
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Make sure you have the following tools installed on your machine:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://pnpm.io/) (to install it globally, run `npm install -g pnpm`)
+- [Stripe] rename the file .env.example to .env and edit the secret key
 
-## Developing
+### Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository:
 
-```bash
-npm run dev
+   ```bash
+   git clone https://github.com/Nassefferjeni/ShopNest.git
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   ```
 
-## Building
+2. Navigate to the project directory:
 
-To create a production version of your app:
+   ```bash
+   cd shotNest
+   ```
 
-```bash
-npm run build
-```
+3. Install dependencies using pnpm:
 
-You can preview the production build with `npm run preview`.
+   ```bash
+   pnpm install
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Development
+
+To run the development server:
+
+    pnpm dev
+
+Open http://localhost:5173 in your browser to view the app.
